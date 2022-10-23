@@ -3,6 +3,7 @@
 #include "SDL_ttf.h"
 #include <vector>
 #include <functional>
+#include <string>
 
 class GUIWidget;
 class ParticleEmitter;

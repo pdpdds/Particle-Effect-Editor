@@ -2,6 +2,7 @@
 #include "SDL_image.h"
 #include "MathFunc.h"
 #include <time.h>
+#include <stdexcept>
 
 using namespace std;
 

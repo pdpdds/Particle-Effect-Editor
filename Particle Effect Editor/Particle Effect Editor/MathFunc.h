@@ -18,9 +18,9 @@ inline float PosOrNeg(float num) {
 	return num * (Random(0, 2) == 0 ? 1 : -1);
 }
 
-inline float round(float num) {
+/*inline float round(float num) {
 	return (num > 0.f) ? floor(num + 0.5f) : ceil(num - 0.5f);
-}
+}*/
 
 inline double round(double num) {
 	return (num > 0.0) ? floor(num + 0.5) : ceil(num - 0.5);

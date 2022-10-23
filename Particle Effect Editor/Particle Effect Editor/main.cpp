@@ -4,6 +4,13 @@
 #include "Timer.h"
 #include "ParticleEditorGUI.h"
 
+FILE _iob[] = { *stdin, *stdout, *stderr };
+
+extern "C" FILE * __cdecl __iob_func(void)
+{
+	return _iob;
+}
+
 //#include "vld.h" //check for memory leaks on debug run
 
 #define GAME_NAME "Particle Effect Editor"
